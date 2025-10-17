@@ -2,14 +2,20 @@ PYIDS is a lightweight Intrusion Detection System (NIDS) built in Python. It cap
 
 ## Project Structure
 
-pyids/
-├── canary.py          # Main script running packet sniffing and sending reports
-├── app.py             # Flask backend with API and dashboard
+PYIDS/
+│
+├── app.py                # Flask backend: API + dashboard routes
+├── canary.py             # Packet sniffer: captures data and sends JSON reports
+│
 ├── templates/
-│   └── dash.html      # Dashboard UI
-└── static/
-    └── styles.css     # Dashboard styling
-
+│   └── dash.html         # Dashboard HTML page
+│
+├── static/
+│   └── styles.css        # Dashboard styling (modern dark UI)
+│
+├── reports.log           # (optional) Stored packet reports
+│
+└── README.md             # Project documentation
 
 ## Run
 
