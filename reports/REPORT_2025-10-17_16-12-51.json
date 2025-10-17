@@ -1,0 +1,82 @@
+[
+    {
+        "time_stamp": "1760713969.770510000",
+        "ipsrc": "10.55.129.186",
+        "ipdst": "10.55.129.213",
+        "srcport": "52074",
+        "dstport": "53",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:12:49Z"
+    },
+    {
+        "time_stamp": "1760713969.770950000",
+        "ipsrc": "10.55.129.186",
+        "ipdst": "10.55.129.213",
+        "srcport": "54578",
+        "dstport": "53",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:12:49Z"
+    },
+    {
+        "time_stamp": "1760713969.776852000",
+        "ipsrc": "10.55.129.186",
+        "ipdst": "10.55.129.213",
+        "srcport": "63438",
+        "dstport": "53",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:12:50Z"
+    },
+    {
+        "time_stamp": "1760713969.777242000",
+        "ipsrc": "10.55.129.186",
+        "ipdst": "10.55.129.213",
+        "srcport": "53021",
+        "dstport": "53",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:12:50Z"
+    },
+    {
+        "time_stamp": "1760713969.866814000",
+        "ipsrc": "10.55.129.213",
+        "ipdst": "10.55.129.186",
+        "srcport": "53",
+        "dstport": "54578",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:12:50Z"
+    },
+    {
+        "time_stamp": "1760713969.866814000",
+        "ipsrc": "10.55.129.213",
+        "ipdst": "10.55.129.186",
+        "srcport": "53",
+        "dstport": "63438",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:12:50Z"
+    },
+    {
+        "time_stamp": "1760713969.866814000",
+        "ipsrc": "10.55.129.213",
+        "ipdst": "10.55.129.186",
+        "srcport": "53",
+        "dstport": "52074",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:12:50Z"
+    },
+    {
+        "time_stamp": "1760713969.866984000",
+        "ipsrc": "10.55.129.213",
+        "ipdst": "10.55.129.186",
+        "srcport": "53",
+        "dstport": "53021",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:12:50Z"
+    }
+]

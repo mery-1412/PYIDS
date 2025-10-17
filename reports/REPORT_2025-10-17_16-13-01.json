@@ -1,0 +1,42 @@
+[
+    {
+        "time_stamp": "1760713980.776847000",
+        "ipsrc": "10.55.129.186",
+        "ipdst": "10.55.129.213",
+        "srcport": "64259",
+        "dstport": "53",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:13:00Z"
+    },
+    {
+        "time_stamp": "1760713980.777159000",
+        "ipsrc": "10.55.129.186",
+        "ipdst": "10.55.129.213",
+        "srcport": "52131",
+        "dstport": "53",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:13:00Z"
+    },
+    {
+        "time_stamp": "1760713980.781527000",
+        "ipsrc": "10.55.129.213",
+        "ipdst": "10.55.129.186",
+        "srcport": "53",
+        "dstport": "64259",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:13:00Z"
+    },
+    {
+        "time_stamp": "1760713980.921621000",
+        "ipsrc": "10.55.129.213",
+        "ipdst": "10.55.129.186",
+        "srcport": "53",
+        "dstport": "52131",
+        "transport_layer": "UDP",
+        "highest_layer": "DNS",
+        "reported_at": "2025-10-17T15:13:01Z"
+    }
+]

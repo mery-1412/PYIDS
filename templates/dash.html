@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PYIDS</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>PYIDS</h1>
+        <div class="reports-box">
+            <div class="navie">
+                <h2>Captured Packets</h2>
+                <button class="btn" onclick="location.reload()" >Refresh</button>
+            </div>
+            {% if reports %}
+            <table id="reportsTable">
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Source IP</th>
+                        <th>Destination IP</th>
+                        <th>Transport</th>
+                        <th>Highest Layer</th>
+                    </tr>
+                </thead>
+                <tbody id="reportsBody">
+                    {% for report in reports %}
+                    <tr>
+                        <td>{{ report.time_stamp }}</td>
+                        <td>{{ report.ipsrc }}</td>
+                        <td>{{ report.ipdst }}</td>
+                        <td>{{ report.transport_layer }}</td>
+                        <td>{{ report.highest_layer }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+                <p>No reports yet.</p>
+            {% endif %}
+        </div>   
+    </div>
+</body>
+</html>
