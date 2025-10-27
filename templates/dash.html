@@ -24,6 +24,7 @@
                         <th>Destination IP</th>
                         <th>Transport</th>
                         <th>Highest Layer</th>
+                        <th>Threat</th>
                     </tr>
                 </thead>
                 <tbody id="reportsBody">
@@ -34,6 +35,20 @@
                         <td>{{ report.ipdst }}</td>
                         <td>{{ report.transport_layer }}</td>
                         <td>{{ report.highest_layer }}</td>
+                        <td>
+                            {% if report.is_threat %}
+                                Yes -
+                                {% if report.threats %}
+                                    {% for t in report.threats %}
+                                        {{ t.type }}{% if not loop.last %}, {% endif %}
+                                    {% endfor %}
+                                {% else %}
+                                    (threat)
+                                {% endif %}
+                            {% else %}
+                                No
+                            {% endif %}
+                        </td>
                     </tr>
                     {% endfor %}
                 </tbody>
